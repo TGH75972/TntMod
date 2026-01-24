@@ -3,15 +3,15 @@
 	"id": "tntmod",
 	"version": "${version}",
 	"name": "tntmod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod that adds a a tnt launcher",
 	"authors": [
-		"Me!"
+		"Harshit"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tntmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"tech.tnt.tntmod.TntmodDataGenerator"
+		],
+		"client": [
+			"tech.tnt.tntmod.Tntmodclient"
 		]
 	},
 	"mixins": [
