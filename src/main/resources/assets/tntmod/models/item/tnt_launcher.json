@@ -1,0 +1,30 @@
+{
+"parent": "item/handheld",
+"textures": {
+"layer0": "tntmod:item/tnt_launcher"
+},
+
+"display": {
+"firstperson_righthand": {
+"rotation": [0, -90, 25],
+"translation": [1.5, 1.2, -1.0],
+"scale": [1.4, 1.4, 1.4]
+},
+"firstperson_lefthand": {
+"rotation": [0, 90, -25],
+"translation": [1.5, 1.2, -1.0],
+"scale": [1.4, 1.4, 1.4]
+},
+"thirdperson_righthand": {
+"rotation": [0, -90, 20],
+"translation": [0.0, 2.5, 0.5],
+"scale": [1.2, 1.2, 1.2]
+},
+"thirdperson_lefthand": {
+"rotation": [0, 90, -20],
+"translation": [0.0, 2.5, 0.5],
+"scale": [1.2, 1.2, 1.2]
+}
+
+}
+}

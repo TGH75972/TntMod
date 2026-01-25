@@ -14,5 +14,6 @@ public class Tntmod implements ModInitializer {
 	public void onInitialize() {
 	
 		ModItems.registerModItems();
+		LOGGER.info("Tnt Mod Initialized");
 	}
 }
