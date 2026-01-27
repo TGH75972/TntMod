@@ -10,7 +10,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class ModItems { 
 
-public static final Item TNT_LAUNCHER= registerItem("tnt_launcher",new Item(new Item.Settings().maxCount(1)));
+public static final Item TNT_LAUNCHER= registerItem("tnt_launcher",new TntLauncherItem(new Item.Settings().maxCount(1).maxDamage(200)));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Tntmod.MOD_ID, name), item);
     }
