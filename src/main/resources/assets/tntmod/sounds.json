@@ -3,12 +3,19 @@
     "sounds": [
       "tntmod:tnt_launcher_shoot"
     ],
-    "subtitle": "sounds.tntmod.tnt_launcher_shoot"
+    "subtitle": "Plops a TNT"
   },
   "tnt_launcher_noammo": {
     "sounds": [
       "tntmod:tnt_launcher_noammo"
     ],
-    "subtitle": "sounds.tntmod.tnt_launcher_noammo"
+    "subtitle": "Empty Clip"
+  },
+
+  "heartbeat":{
+    "sounds": [
+      "tntmod:heartbeat"
+    ],
+    "subtitle": "Thump thump"
   }
 }

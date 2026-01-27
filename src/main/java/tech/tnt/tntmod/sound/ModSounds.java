@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 public class ModSounds {
 public static final SoundEvent TNT_LAUNCHER_SHOOT = registerSoundEvent("tnt_launcher_shoot"); 
 public static final SoundEvent TNT_LAUNCHER_NOAMMO = registerSoundEvent("tnt_launcher_noammo");
+public static final SoundEvent HEARTBEAT = registerSoundEvent("heartbeat");
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(Tntmod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
