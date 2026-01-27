@@ -16,7 +16,7 @@ public static final Item TNT_LAUNCHER= registerItem("tnt_launcher",new TntLaunch
     }
     public static void registerModItems() {
         Tntmod.LOGGER.info("Mod Items Registered for -" + Tntmod.MOD_ID);
-
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> entries.add(TNT_LAUNCHER));
+    
     }
 }

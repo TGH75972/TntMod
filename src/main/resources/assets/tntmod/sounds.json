@@ -1,0 +1,14 @@
+{
+  "tnt_launcher_shoot": {
+    "sounds": [
+      "tntmod:tnt_launcher_shoot"
+    ],
+    "subtitle": "sounds.tntmod.tnt_launcher_shoot"
+  },
+  "tnt_launcher_noammo": {
+    "sounds": [
+      "tntmod:tnt_launcher_noammo"
+    ],
+    "subtitle": "sounds.tntmod.tnt_launcher_noammo"
+  }
+}
