@@ -20,7 +20,7 @@ public static final Item TNT_LAUNCHER= registerItem("tnt_launcher",new TntLaunch
         Registry.register(Registries.ITEM, Identifier.of(Tntmod.MOD_ID, "guacamole"), GUACAMOLE);
     }
 
-    public static final Item GUACAMOLE = new GuacamoleItem(new Item.Settings().food(ModFood.GUACAMOLE));
+    public static final Item GUACAMOLE = new GuacamoleItem(new Item.Settings().food(ModFood.GUACAMOLE).maxCount(1));
     
 
 }
