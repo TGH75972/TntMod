@@ -7,3 +7,4 @@ A Minecraft mod made in Fabric 1.21 that contains three of the most unique featu
 <br>
 Players can use guacamole for escaping mobs in 1x1 tunnels or even from other players in PvP, but it lasts for 30 seconds only, so they will have to make it quick before they<br>
 go back to their original size.
+<img width="1366" height="768" alt="Minecraft_ 1 21 - Singleplayer 30-01-2026 16_01_20" src="https://github.com/user-attachments/assets/e271d762-92ac-4454-95af-9472a8d1e917" />
